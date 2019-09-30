@@ -219,7 +219,7 @@ Create a diagram of how the different parts of the server interact with one anot
 This Bootcamp is an exercise in test driven development (TDD). When you first start this assignment all your test will most likely be failing. Your job is to write code to get tests to pass. Work on one test at a time. You will find it to be quite gratifying when your code passes a test. You should also try to make you own test cases and see if you can pass them. This is a really great practice to better understand the tests in these assignments and to test your understanding of how your code works. 
 
 #### To Do List
-1. Update your `config.s` file using the config.example.js
+1. Update your `config.s` file using the config.js
     - Add in your MongoDB Atlas URI
     - Sign-up for a free public key https://opencagedata.com/ and add it to your config file - This key will allow us to access open cage data's `geocoding api` to retreive coordinates for new buildings you add to the application.
 
