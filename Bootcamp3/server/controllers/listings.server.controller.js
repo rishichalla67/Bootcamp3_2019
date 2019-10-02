@@ -88,14 +88,10 @@ exports.delete = function(req, res) {
 
   /* Add your code to remove the listins */
   listing.deleteOne(listing, function (err) {
-    if (err) {
-      return res.status(404).send({
-        message: "Listing was unable to delete."
-      });
-    }
-    else {
-      return res.status(200).send({message: "Listing deleted successfully!"});
-    }
+    if (err)
+      return res.status(404).send("Listing was unable to delete.");
+    else
+      return res.status(200).send("Listing deleted successfully!");
   })
 
 };
